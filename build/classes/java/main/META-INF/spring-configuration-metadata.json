@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource-alpha-dev",
+      "type": "javax.sql.DataSource",
+      "sourceType": "io.ader.sketchbook.config.AlphaDevDataSourceConfig",
+      "sourceMethod": "alphaDevDataSource()"
+    },
+    {
+      "name": "spring.datasource-alpha-test",
+      "type": "javax.sql.DataSource",
+      "sourceType": "io.ader.sketchbook.config.AlphaTestDataSourceConfig",
+      "sourceMethod": "alphaTestDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

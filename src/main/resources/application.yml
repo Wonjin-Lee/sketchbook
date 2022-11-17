@@ -1,0 +1,25 @@
+spring:
+  datasource-alpha-dev:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ader
+    password: 1234
+    jdbcUrl: jdbc:mysql://127.0.0.1:3306/sketchbook_alpha_dev?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+  datasource-alpha-test:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ader
+    password: 1234
+    jdbcUrl: jdbc:mysql://127.0.0.1:3306/sketchbook_alpha_test?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+#  datasource-beta-dev:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: ader
+#    password: 1234
+#    jdbcUrl: jdbc:mysql://127.0.0.1:3306/sketchbook_beta_dev?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+#  datasource-beta-test:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: ader
+#    password: 1234
+#    jdbcUrl: jdbc:mysql://127.0.0.1:3306/sketchbook_beta_test?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
