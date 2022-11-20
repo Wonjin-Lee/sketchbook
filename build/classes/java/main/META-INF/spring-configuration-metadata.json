@@ -1,16 +1,22 @@
 {
   "groups": [
     {
-      "name": "spring.datasource-alpha-dev",
+      "name": "spring.datasource-amazon-dev",
       "type": "javax.sql.DataSource",
-      "sourceType": "io.ader.sketchbook.config.AlphaDevDataSourceConfig",
-      "sourceMethod": "alphaDevDataSource()"
+      "sourceType": "io.ader.sketchbook.core.config.AmazonDevDataSource",
+      "sourceMethod": "dataSource()"
     },
     {
-      "name": "spring.datasource-alpha-test",
+      "name": "spring.datasource-amazon-test",
       "type": "javax.sql.DataSource",
-      "sourceType": "io.ader.sketchbook.config.AlphaTestDataSourceConfig",
-      "sourceMethod": "alphaTestDataSource()"
+      "sourceType": "io.ader.sketchbook.core.config.AmazonTestDataSource",
+      "sourceMethod": "dataSource()"
+    },
+    {
+      "name": "spring.datasource-facebook-dev",
+      "type": "javax.sql.DataSource",
+      "sourceType": "io.ader.sketchbook.core.config.FacebookDevDataSource",
+      "sourceMethod": "dataSource()"
     }
   ],
   "properties": [],

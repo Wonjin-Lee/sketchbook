@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
-@Component
+@Component("AmazonActor")
 public class AmazonActor extends Actor {
     public AmazonActor(@Qualifier("AmazonStrategy") Strategy strategy) {
         setStrategy(strategy);

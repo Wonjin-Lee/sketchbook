@@ -1,7 +1,6 @@
 package io.ader.sketchbook.core.service.strategy;
 
 import io.ader.sketchbook.core.domain.Environment;
-import io.ader.sketchbook.core.repository.CommonRepository;
 
 import java.util.Map;
 
