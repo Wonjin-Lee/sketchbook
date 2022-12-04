@@ -1,7 +1,9 @@
 package io.wonjin;
 
+import io.wonjin.old.OIOServer;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new OIOServer().run();
     }
 }
