@@ -1,7 +1,17 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sketchbook?characterEncoding=UTF-8&serverTimezone=UTC
+    jdbcUrl: jdbc:mysql://localhost:3306/sketchbook?characterEncoding=UTF-8&serverTimezone=UTC
+    username: ader
+    password: 1234
+  datasource-sketchbook-alpha-dev:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbcUrl: jdbc:mysql://localhost:3306/sketchbook_alpha_dev?characterEncoding=UTF-8&serverTimezone=UTC
+    username: ader
+    password: 1234
+  datasource-sketchbook-alpha-test:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbcUrl: jdbc:mysql://localhost:3306/sketchbook_alpha_test?characterEncoding=UTF-8&serverTimezone=UTC
     username: ader
     password: 1234
 

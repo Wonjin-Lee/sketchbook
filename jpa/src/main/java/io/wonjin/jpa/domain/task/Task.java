@@ -1,4 +1,4 @@
-package io.wonjin.jpa.domain;
+package io.wonjin.jpa.domain.task;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,13 +10,15 @@ import java.util.List;
 @Setter
 @Entity
 public class Task {
+    @Column(name = "task_id")
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long taskId;
 
+    @Column(name = "task_name")
     private String taskName;
 
     @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "taskId")
+    @JoinColumn(name = "task_id")
     private List<SubTask> subTasks;
 }

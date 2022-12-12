@@ -1,6 +1,6 @@
 package io.wonjin.jpa.controller;
 
-import io.wonjin.jpa.domain.Task;
+import io.wonjin.jpa.domain.task.Task;
 import io.wonjin.jpa.service.TaskService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
